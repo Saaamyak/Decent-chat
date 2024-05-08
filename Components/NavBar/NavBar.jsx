@@ -1,12 +1,12 @@
-import React, { useEffect, useState, useContext } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import React, { useContext, useState } from "react";
 
 //INTERNAL IMPORT
-import Style from "./NavBar.module.css";
 import { ChatAppContect } from "../../Context/ChatAppContext";
-import { Model, Error } from "../index";
 import images from "../../assets";
+import { Error, Model } from "../index";
+import Style from "./NavBar.module.css";
 
 const NavBar = () => {
   const menuItems = [
@@ -128,8 +128,8 @@ const NavBar = () => {
           <Model
             openBox={setOpenModel}
             title="WELCOME TO"
-            head="CHAT BUDDY"
-            info="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate maxime assumenda exercitationem voluptatibus, vero aliquid in tempore aut, impedit dolores voluptate recusandae nulla fuga? Praesentium iusto mollitia sint fugit! Placeat?"
+            head="DECENT CHAT"
+            info="Your conversations just got safer! At Decent Chat we leverage blockchain technology to offer unparalleled security and privacy for your digital communications. Our decentralized platform ensures that your messages are encrypted end-to-end and stored securely, without any intermediaries."
             smallInfo="Kindley seclet your name..."
             image={images.hero}
             functionName={createAccount}
