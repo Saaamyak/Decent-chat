@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
 
-//INTERNAL IMPORT
-import Style from "./Chat.module.css";
-import images from "../../../assets";
+
 import { converTime } from "../../../Utils/apiFeature";
+import images from "../../../assets";
 import { Loader } from "../../index";
+import Style from "./Chat.module.css";
 
 const Chat = ({
   functionName,
@@ -19,7 +19,7 @@ const Chat = ({
   currentUserAddress,
   readUser,
 }) => {
-  //USTE STATE
+  
   const [message, setMessage] = useState("");
   const [chatData, setChatData] = useState({
     name: "",

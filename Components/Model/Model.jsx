@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import Image from "next/image";
 
-//INTERNAL IMPORT
+
 import Style from "./Model.module.css";
 import images from "../../assets";
 import { ChatAppContect } from "../../Context/ChatAppContext";
@@ -17,7 +17,7 @@ const Model = ({
   image,
   functionName,
 }) => {
-  //USESTATE
+  
   const [name, setName] = useState("");
   const [userAddress, setUserAddress] = useState(address);
 

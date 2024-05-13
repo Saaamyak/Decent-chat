@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useContext, useState } from "react";
 
-//INTERNAL IMPORT
+
 import { ChatAppContect } from "../../Context/ChatAppContext";
 import images from "../../assets";
 import { Error, Model } from "../index";
@@ -28,7 +28,7 @@ const NavBar = () => {
     },
   ];
 
-  //USESTATE
+  
   const [active, setActive] = useState(2);
   const [open, setOpen] = useState(false);
   const [openModel, setOpenModel] = useState(false);

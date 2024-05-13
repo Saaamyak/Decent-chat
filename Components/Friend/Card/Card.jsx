@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-//INTERNAL IMPORT
+
 import Style from "./Card.module.css";
 import images from "../../../assets";
 

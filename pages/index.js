@@ -1,11 +1,10 @@
-import React, { useEffect, useState, useContext } from "react";
+import React from "react";
 
-//INTERNAL IMPORT
-// import { ChatAppContect } from "../Context/ChatAppContext";
+
 import { Filter, Friend } from "../Components/index";
 
 const ChatApp = () => {
-  // const {} = useContext(ChatAppContect);
+  
   return (
     <div>
       <Filter />

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import Image from "next/image";
 
-//INTERNAL IMPORT
+
 import Style from "./Filter.module.css";
 import images from "../../assets";
 import { ChatAppContect } from "../../Context/ChatAppContext";
@@ -10,7 +10,7 @@ import { Model } from "../index";
 const Filter = () => {
   const { account, addFriends } = useContext(ChatAppContect);
 
-  //USESTATE
+  
   const [addFriend, setAddFriend] = useState(false);
   return (
     <div className={Style.Filter}>

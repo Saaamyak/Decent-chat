@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-//INTRNAL IMPORT
+
 import { UserCard } from "../Components/index";
 import Style from "../styles/alluser.module.css";
 import { ChatAppContect } from "../Context/ChatAppContext";
